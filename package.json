@@ -1,0 +1,36 @@
+{
+  "name": "vue-front-express",
+  "version": "0.5.7",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "format": "prettier --config ./.prettierrc --write .",
+    "start:pm2": "pm2 stop npm && pm2 start npm -- run serve"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "ant-design-vue": "3.0.0-alpha.15",
+    "axios": "^1.4.0",
+    "core-js": "^3.8.3",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.13",
+    "vue3-carousel": "^0.1.36",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "^4.5.15",
+    "@vue/compiler-sfc": "^3.2.31",
+    "dotenv": "^16.0.0",
+    "less": "^4.1.2",
+    "less-loader": "7.3.0",
+    "prettier": "^2.6.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
